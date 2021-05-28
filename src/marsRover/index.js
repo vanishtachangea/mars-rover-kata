@@ -1,3 +1,1 @@
-exports.getCoordinates = function (data) {
-  return 0;
-};
+exports.getCoordinates = function (data) {};

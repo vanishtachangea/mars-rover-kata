@@ -4,8 +4,10 @@
   "description": "mars-rover-kata challenge",
   "main": "index.js",
   "scripts": {
-    "test2": "jest src/",
-    "test": "mocha --recursive ./src/**/*.js"
+    "start": "node ./src/marsRover/index.js",
+    "test": "mocha --recursive ./src/**/*.js",
+    "test1": "mocha -w --recursive ./src/**/*.js",
+    "grep": "mocha --recursive ./src/**/*.js --grep 'TEST'"
   },
   "dependencies": {},
   "devDependencies": {
